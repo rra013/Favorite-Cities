@@ -15,6 +15,7 @@
 		5BD95F8A20F3A6F10046A061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD95F8820F3A6F10046A061 /* LaunchScreen.storyboard */; };
 		5BD95F9520F3A6F20046A061 /* Favorite_CitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD95F9420F3A6F20046A061 /* Favorite_CitiesTests.swift */; };
 		5BD95FA020F3A6F20046A061 /* Favorite_CitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD95F9F20F3A6F20046A061 /* Favorite_CitiesUITests.swift */; };
+		5BD95FAE20F3AC8C0046A061 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD95FAD20F3AC8C0046A061 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5BD95F9B20F3A6F20046A061 /* Favorite CitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite CitiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD95F9F20F3A6F20046A061 /* Favorite_CitiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_CitiesUITests.swift; sourceTree = "<group>"; };
 		5BD95FA120F3A6F20046A061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD95FAD20F3AC8C0046A061 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				5BD95F7D20F3A6EF0046A061 /* AppDelegate.swift */,
 				5BD95F7F20F3A6EF0046A061 /* MasterViewController.swift */,
+				5BD95FAD20F3AC8C0046A061 /* City.swift */,
 				5BD95F8120F3A6EF0046A061 /* DetailViewController.swift */,
 				5BD95F8320F3A6EF0046A061 /* Main.storyboard */,
 				5BD95F8620F3A6F10046A061 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			files = (
 				5BD95F8220F3A6EF0046A061 /* DetailViewController.swift in Sources */,
 				5BD95F8020F3A6EF0046A061 /* MasterViewController.swift in Sources */,
+				5BD95FAE20F3AC8C0046A061 /* City.swift in Sources */,
 				5BD95F7E20F3A6EF0046A061 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
